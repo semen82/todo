@@ -1,0 +1,13 @@
+.search-panel {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-panel .search {
+  flex-grow: 1;
+  margin-right: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid rgb(167, 167, 167);
+}

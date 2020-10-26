@@ -1,0 +1,35 @@
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.todo-list-item .label {
+  display: block;
+  flex-grow: 1;
+  font-size: 16px;
+  border: 1px solid rgb(201, 201, 201);
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.todo-list-item .label.important {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.todo-list-item .label.done {
+  text-decoration: line-through;
+}
+
+.buttons button {
+  padding: 3px 5px;
+  margin-right: 3px;
+}
+
+.buttons .fa {
+  font-size: 20px;
+  color: rgb(78, 0, 109);
+}
